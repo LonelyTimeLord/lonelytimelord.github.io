@@ -5356,8 +5356,8 @@ button.close {
 .modal {
   display: none;
   overflow: hidden;
-  /*position: fixed;*/
-  position: absolute;
+  overflow-y: scroll;
+  position: fixed;
   top: 0;
   right: 0;
   bottom: 0;
