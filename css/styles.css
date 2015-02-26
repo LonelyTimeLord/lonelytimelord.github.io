@@ -99,6 +99,11 @@ hr.small
     background-color: #282828;
 }
 
+.navbar-custom .nav .selected a
+{
+    color: #8185FF;
+}
+
 .portfolio-image
 {
     opacity: 1.0;
