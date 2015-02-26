@@ -1,0 +1,158 @@
+/*282828 5A5A5A C8C8C8 FFFFFF 8185FF*/
+/*40,40,40 90,90,90 200,200,200, 255,255,255 129,133,255*/
+
+.banner-image
+{
+    background-image: url("../img/Homepage.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-attachment: scroll;
+    border-bottom: 1px solid black;
+    margin-bottom: 50px;
+}
+
+.site-heading
+{
+    padding: 150px 0;
+    text-align: center;
+}
+
+.site-heading h1
+{
+    color: white;
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 80px;
+    font-weight: 800;
+}
+
+.site-heading .subheading
+{
+    color: white;
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+hr.small
+{
+    max-width: 100px;
+    margin: 15px auto;
+    border-width: 4px;
+    border-color: white;
+}
+
+.navbar-custom
+{
+    background-color: rgba(0, 0, 0, 0.3);
+    border: 0px solid transparent;
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.navbar-custom .nav li a
+{
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+.navbar-custom .nav li a:hover
+{
+    color: #8185FF;
+}
+
+.navbar-custom .navbar-brand
+{
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+.navbar-custom .navbar-brand:hover
+{
+    color: #8185FF;
+}
+
+.navbar-default .navbar-toggle
+{
+    border-color: #8185FF;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover
+{
+    background-color: #8185FF;
+    border-color: white;
+}
+
+.navbar-default .navbar-toggle .icon-bar
+{
+    background-color: white;
+}
+
+.navbar-default .navbar-toggle:hover .icon-bar
+{
+    background-color: #282828;
+}
+
+.portfolio-image
+{
+    opacity: 1.0;
+    -webkit-animation: fade-in .1s;
+       -moz-animation: fade-in .1s;
+         -o-animation: fade-in .1s;
+            animation: fade-in .1s;
+}
+
+.portfolio-image:hover
+{
+    opacity: 0.7;
+    -webkit-animation: fade-out .1s;
+       -moz-animation: fade-out .1s;
+         -o-animation: fade-out .1s;
+            animation: fade-out .1s;
+}
+
+@-webkit-keyframes fade-out { from { opacity: 1.0; } to { opacity: 0.7; } }
+   @-moz-keyframes fade-out { from { opacity: 1.0; } to { opacity: 0.7; } }
+     @-o-keyframes fade-out { from { opacity: 1.0; } to { opacity: 0.7; } }
+        @keyframes fade-out { from { opacity: 1.0; } to { opacity: 0.7; } }
+
+@-webkit-keyframes fade-in { from { opacity: 0.7; } to { opacity: 1.0; } }
+   @-moz-keyframes fade-in { from { opacity: 0.7; } to { opacity: 1.0; } }
+     @-o-keyframes fade-in { from { opacity: 0.7; } to { opacity: 1.0; } }
+        @keyframes fade-in { from { opacity: 0.7; } to { opacity: 1.0; } }
+
+h3
+{
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 800;
+    font-size: 24px;
+}
+
+a
+{
+    color: #282828;
+}
+
+a:hover
+{
+    color: #8185FF;
+}
+
+footer .copyright
+{
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 0;
+    color: #5A5A5A;
+}
+
+footer 
+{
+    margin-bottom: 30px
+}

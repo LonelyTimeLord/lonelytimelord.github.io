@@ -4,10 +4,16 @@
  * Licensed under Apache 2.0 (https://github.com/IronSummitMedia/startbootstrap/blob/gh-pages/LICENSE)
  *
  * Grey 302B26
- * Green A6B827 A6D91B (166,217,27)
+ * Green A6B827 3FB7DB (63,183,219)
  * White EDE9DD EDE9FD
  * Blue 98D3D4 66D3D4
  * Purple 594E7A 594EAC (89,78,172)
+ *
+ * White FFFFFF (255,255,255)
+ * Light Grey DCDCDC (220,220,220)
+ * Dark Grey 282828 (40,40,40)
+ * Blue 46D4DB (70,212,219) 88DBD4 (136,219,212)
+ * Green 61EF28 (97,239,40)
  */
 
 body {
@@ -69,7 +75,7 @@ hr.small {
   font-weight: 800;
   letter-spacing: 1px;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1100px) {
   .navbar-custom {
     background: transparent;
     border-bottom: 1px solid transparent;
@@ -80,7 +86,7 @@ hr.small {
   }
   .navbar-custom .navbar-brand:hover,
   .navbar-custom .navbar-brand:focus {
-    color: rgb(166,217,27)
+    color: rgb(07, 239, 40)
   }
   .navbar-custom .nav li a {
     color: white;
@@ -88,15 +94,19 @@ hr.small {
   }
   .navbar-custom .nav li a:hover,
   .navbar-custom .nav li a:focus {
-    color: rgb(166,217,27)
+    color: rgb(07, 239, 40)
   }
 }
+
+  .navbar-custom2 {
+	background-color: rgba(40, 40, 40, 0.9);
+  }
+  
 @media only screen and (min-width: 1170px) {
   .navbar-custom {
     -webkit-transition: background-color 0.3s;
     -moz-transition: background-color 0.3s;
     transition: background-color 0.3s;
-    /* Force Hardware Acceleration in WebKit */
     -webkit-transform: translate3d(0, 0, 0);
     -moz-transform: translate3d(0, 0, 0);
     -ms-transform: translate3d(0, 0, 0);
@@ -109,7 +119,7 @@ hr.small {
     /* when the user scrolls down, we hide the header right above the viewport */
     position: fixed;
     /*top: -61px;*/
-    background-color: rgba(89,78,172, 0.9);
+    background-color: rgba(40, 40, 40, 0.9);
     border-bottom: 1px solid #594EAC;
     -webkit-transition: -webkit-transform 0.3s;
     -moz-transition: -moz-transform 0.3s;
@@ -120,14 +130,14 @@ hr.small {
   }
   .navbar-custom.is-fixed .navbar-brand:hover,
   .navbar-custom.is-fixed .navbar-brand:focus {
-    color: #A6D91B;
+    color: #61EF28;
   }
   .navbar-custom.is-fixed .nav li a {
     color: #EDE9FD;
   }
   .navbar-custom.is-fixed .nav li a:hover,
   .navbar-custom.is-fixed .nav li a:focus {
-    color: #A6D91B;
+    color: #61EF28;
   }
   /*.navbar-custom.is-visible {
     /* if the user changes the scrolling direction, we show the header
@@ -154,7 +164,7 @@ hr.small {
   padding: 100px 0 50px;
   color: white;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1100px) {
   .intro-header .site-heading,
   .intro-header .post-heading,
   .intro-header .page-heading {
@@ -179,7 +189,7 @@ hr.small {
   font-weight: 300;
   margin: 10px 0 0;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1100px) {
   .intro-header .site-heading h1,
   .intro-header .page-heading h1 {
     font-size: 80px;
@@ -208,7 +218,7 @@ hr.small {
 .intro-header .post-heading .meta a {
   color: white;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1100px) {
   .intro-header .post-heading h1 {
     font-size: 55px;
   }
@@ -249,7 +259,7 @@ hr.small {
   color: #0085a1;
   text-decoration: underline;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1100px) {
   .post-preview > a > .post-title {
     font-size: 36px;
   }
