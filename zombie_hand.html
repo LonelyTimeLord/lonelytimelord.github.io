@@ -1,5 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
+    <script>
+    function pictureChange(element)
+    {
+        document.getElementById("theImage").src = element.src;
+    }
+    
+    function openImage()
+    {
+        window.location.assign(document.getElementById("theImage").src);
+    }
+    </script>
+    
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,13 +26,29 @@
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
     
+    <!-- PhotoSwipe -->
+    <!-- Core CSS file -->
+    <link rel="stylesheet" href="path/to/photoswipe.css"> 
+
+    <!-- Skin CSS file (styling of UI - buttons, caption, etc.)
+         In the folder of skin CSS file there are also:
+         - .png and .svg icons sprite, 
+         - preloader.gif (for browsers that do not support CSS animations) -->
+    <link rel="stylesheet" href="path/to/default-skin/default-skin.css"> 
+
+    <!-- Core JS file -->
+    <script src="path/to/photoswipe.min.js"></script> 
+
+    <!-- UI JS file -->
+    <script src="path/to/photoswipe-ui-default.min.js"></script> 
+    
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-  </head>
+  </head>  
   <body>
     <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
       <div class="container-fluid">
@@ -76,7 +105,7 @@
     <div class="row">
 
         <div class="col-md-8">
-            <img class="img-responsive" src="http://placehold.it/750x500" alt="">
+            <img id="theImage" class="img-responsive clickable" src="img/Test1.jpg" alt="" onclick="openImage()">
         </div>
 
         <div class="col-md-4">
@@ -93,7 +122,7 @@
 
     </div>
     <!-- /.row -->
-
+    
     <!-- Related Projects Row -->
     <div class="row">
 
@@ -102,27 +131,19 @@
         </div>
 
         <div class="col-sm-3 col-xs-6">
-            <a href="#">
-                <img class="img-responsive portfolio-item" src="http://placehold.it/500x300" alt="">
-            </a>
+            <img class="img-responsive portfolio-image clickable" src="img/Test1.jpg" alt="" onclick="pictureChange(this)">
         </div>
 
         <div class="col-sm-3 col-xs-6">
-            <a href="#">
-                <img class="img-responsive portfolio-item" src="http://placehold.it/500x300" alt="">
-            </a>
+            <img class="img-responsive clickable" src="img/Test2.jpg" alt="" onclick="pictureChange(this)">
         </div>
 
         <div class="col-sm-3 col-xs-6">
-            <a href="#">
-                <img class="img-responsive portfolio-item" src="http://placehold.it/500x300" alt="">
-            </a>
+            <img class="img-responsive clickable" src="img/Test3.jpg" alt="" onclick="pictureChange(this)">
         </div>
 
         <div class="col-sm-3 col-xs-6">
-            <a href="#">
-                <img class="img-responsive portfolio-item" src="http://placehold.it/500x300" alt="">
-            </a>
+            <img class="img-responsive clickable" src="http://placehold.it/450x300" alt="" onclick="pictureChange(this)">
         </div>
 
     </div>

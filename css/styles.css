@@ -11,6 +11,11 @@
     margin-bottom: 50px;
 }
 
+.clickable
+{
+    cursor: pointer;
+}
+
 .site-heading
 {
     padding: 150px 0;
