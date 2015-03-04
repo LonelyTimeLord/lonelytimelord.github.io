@@ -117,6 +117,10 @@ hr.small
          -o-animation: fade-in .1s;
             animation: fade-in .1s;
 }
+.portfolio-image2
+{
+    opacity: 1.0;
+}
 
 .portfolio-image:hover
 {
@@ -125,6 +129,11 @@ hr.small
        -moz-animation: fade-out .1s;
          -o-animation: fade-out .1s;
             animation: fade-out .1s;
+}
+
+.portfolio-image2:hover
+{
+    opacity: 0.7;
 }
 
 @-webkit-keyframes fade-out { from { opacity: 1.0; } to { opacity: 0.7; } }
