@@ -1,9 +1,29 @@
 /*282828 5A5A5A C8C8C8 FFFFFF 8185FF*/
 /*40,40,40 90,90,90 200,200,200, 255,255,255 129,133,255*/
 
-.banner-image
+.banner-image-homepage
 {
     background-image: url("../img/Homepage.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-attachment: scroll;
+    border-bottom: 1px solid black;
+    margin-bottom: 50px;
+}
+
+.banner-image-about
+{
+    background-image: url("../img/About.png");
+    background-size: cover;
+    background-position: center center;
+    background-attachment: scroll;
+    border-bottom: 1px solid black;
+    margin-bottom: 50px;
+}
+
+.banner-image-contact
+{
+    background-image: url("../img/Contact.png");
     background-size: cover;
     background-position: center center;
     background-attachment: scroll;
@@ -158,10 +178,10 @@ a
     color: #282828;
 }
 
-a:visited
+/*a:visited
 {
     color: #8185FF;
-}
+}*/
 
 a:hover
 {
