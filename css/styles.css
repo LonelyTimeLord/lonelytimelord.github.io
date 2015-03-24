@@ -140,6 +140,7 @@ hr.small
 .portfolio-image2
 {
     opacity: 1.0;
+    margin-bottom: 30px;
 }
 
 .portfolio-image:hover
@@ -166,6 +167,12 @@ hr.small
      @-o-keyframes fade-in { from { opacity: 0.7; } to { opacity: 1.0; } }
         @keyframes fade-in { from { opacity: 0.7; } to { opacity: 1.0; } }
 
+.responsive-video {
+position: relative;
+padding-bottom: 56.25%;
+padding-top: 60px; overflow: hidden;
+}
+        
 h3
 {
     font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
