@@ -132,6 +132,7 @@ hr.small
 .portfolio-image
 {
     opacity: 1.0;
+    margin-top: 15px;
     -webkit-animation: fade-in .1s;
        -moz-animation: fade-in .1s;
          -o-animation: fade-in .1s;
@@ -146,6 +147,7 @@ hr.small
 .portfolio-image:hover
 {
     opacity: 0.7;
+    margin-top: 15px;
     -webkit-animation: fade-out .1s;
        -moz-animation: fade-out .1s;
          -o-animation: fade-out .1s;
