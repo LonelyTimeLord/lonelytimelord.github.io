@@ -13,7 +13,7 @@
 
 .banner-image-about
 {
-    background-image: url("../img/About.png");
+    background-image: url("../img/About.jpg");
     background-size: cover;
     background-position: center center;
     background-attachment: scroll;
@@ -23,7 +23,7 @@
 
 .banner-image-contact
 {
-    background-image: url("../img/ContactMe.png");
+    background-image: url("../img/ContactMe.jpg");
     background-size: cover;
     background-position: center center;
     background-attachment: scroll;
