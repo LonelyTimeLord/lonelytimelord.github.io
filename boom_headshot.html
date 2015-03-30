@@ -11,6 +11,12 @@
     {
         window.location.assign(document.getElementById("theImage").src);
     }
+    
+    /*function replaceElement(ele, newele)
+    {
+        ele.parentNode.appendChild(newele);
+        ele.parentNode.removeChild(ele);
+    }*/
     </script>
     
   <head>
@@ -114,11 +120,12 @@
             <!--<img id="theImage" class="img-responsive clickable" src="img/Web4.png" alt="" onclick="openImage()">-->
             <!-- 16:9 aspect ratio -->
             <!-- 16:9 aspect ratio -->
-            <div class="embed-responsive embed-responsive-16by9">
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/fI2H9-R8VSg" frameborder="0" allowfullscreen name="youtube_iframe"></iframe>
+            <div class="portfolio-video embed-responsive embed-responsive-16by9">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/fI2H9-R8VSg" frameborder="0" allowfullscreen name="youtube_iframe" id="ytvid"></iframe>
             </div>
         </div>
 
+        <br>
         <div class="col-md-3">
             <h3>Project Description</h3>
             <p>2nd year University module, to create a character animation based around a Dota 2 character</p>
@@ -130,21 +137,34 @@
                 <li>Video Editing done in Sony Vegas</li>
             </ul>
         </div>
+        
 
+    
+        <div class="col-md-9">
+        <h4>Run/Jump Cycle</h4>
+            <div class="portfolio-video embed-responsive embed-responsive-16by9">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/jDt1DGmCEN4" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+        
+        <div class="col-md-9">
+        <h4>Walk Cycle</h4>
+            <div class="portfolio-video embed-responsive embed-responsive-16by9">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/LEEA8AY1Auo" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+            
+        
     </div>
     <!-- /.row -->
     
     <!-- Related Projects Row -->
     <div class="row">
 
-        <div class="col-lg-12">
+        <!--<div class="col-lg-12">
             <h3 class="page-header">More Videos (Coming soon)</h3>
         </div>
         
-        <!--<div class="col-md-3 col-sm-4 col-xs-6">
-            <img class="img-responsive portfolio-image2 clickable" src="img/Web4.png" alt="" onclick="pictureChange(this)">
-        </div>
-
         <div class="col-md-3 col-sm-4 col-xs-6">
             <img class="img-responsive portfolio-image2 clickable" src="img/Web3.png" alt="" onclick="pictureChange(this)">
         </div>
@@ -161,6 +181,10 @@
             <img class="img-responsive portfolio-image2 clickable" src="img/Web7.png" alt="" onclick="pictureChange(this)">
         </div>-->
 
+        
+        <!--<div class="col-md-3 col-sm-4 col-xs-6">
+            <img class="img-responsive portfolio-image2 clickable" src="img/AboutMe.jpg" alt="" onclick="replaceElement(document.getElementById('ytvid'), this)">
+        </div>-->
 
     </div>
     <!-- /.row -->
