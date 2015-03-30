@@ -36,6 +36,11 @@
     cursor: pointer;
 }
 
+.zoomable
+{
+    cursor: zoom-in;
+}
+
 .site-heading
 {
     padding: 150px 0;
