@@ -8,7 +8,7 @@
     background-position: center center;
     background-attachment: scroll;
     border-bottom: 1px solid black;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 
 .banner-image-about
@@ -47,7 +47,7 @@
     text-align: center;
 }
 
-.site-heading h1
+.site-heading h1 
 {
     color: white;
     font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -132,6 +132,12 @@ hr.small
 .navbar-custom .nav .selected a
 {
     color: #8185FF;
+}
+
+.center-containerheading
+{
+    padding: 0px 0;
+    text-align: center;
 }
 
 .portfolio-image
